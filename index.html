@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="image">
+    <img src="https://github.com/Habsida-Projects/css-task/blob/main/img/bg.jpg?raw=true" alt="background">
+    <img class="logo"
+      src="https://raw.githubusercontent.com/Habsida-Projects/css-task/47bb45378bbc4fdc0e2ead61e5299d036783ded2/img/logo.svg"
+      alt="logo">
+  </div>
+  <div class="container">
+    <div class="head">
+      <h1 class="hHead">Get iinto it today</h1>
+      <p class="pHead">There is no charge or obligation upon registration</p>
+    </div>
+    <div class="button">
+      <button type="button" class="button button1">Register with Facebook</button>
+      <button type="button" class="button button2">Register with LinkedIn</button>
+    </div>
+    <div style="display:flex; align-items: center; justify-content: space-between; margin-top: 40px;">
+      <div style="height: 1px; width: 50%; background-color: #ccc;"></div>
+      <span style="margin: auto 20px">OR</span>
+      <div style="height: 1px; width: 50%; background-color: #ccc;"></div>
+    </div>
+    <form class="forms">
+      <div style="position:relative">
+        <label for="email" class="labels">Email</label>
+        <input id="email" type="text" class="inputs" placeholder="gus.goodwin@gmail.com">
+        <label for="phone" class="labels">Phone</label>
+        <input id="phone" type="text" class="inputs">
+      </div>
+    </form>
+    <div class="investor">
+      <h2 class="hMid">What type of investor are you?</h2>
+      <p class="pMid">Select type of investor you are below.</p> 
+    </div>
+    <div class="investors">
+      <form>
+        <input class="rinput" type="radio" id="individual" name="investor" value="Individual">
+        <label for="individual">Individual <span class="info-symbol">&#x1F6C8<span class="info-tooltip">Someone who invests in securities and assets on their own.</span></span>
+        </label>
+        <input class="rinput" type="radio" id="business" name="investor" value="Business">
+        <label for="business">Business <span class="info-symbol">&#x1F6C8<span class="info-tooltip">An organizations that invest money on behalf of others, with professional analysts.</span></span></label>
+        <input class="rinput" type="radio" id="ira" name="investor" value="IRA">
+        <label for="ira">IRA <span class="info-symbol">&#x1F6C8<span class="info-tooltip">An individual retirement account allows you to save money for retirement in a tax-advantaged way.</span></span></label>
+        <input class="rinput" type="radio" id="Trust" name="trust" value="Trust">
+        <label for="trust">Trust <span class="info-symbol">&#x1F6C8<span class="info-tooltip">A public limited company that aims to make money by investing in other companies.</span></span></label>
+      </form>
+    </div>
+    <div class="check">
+      <input type="checkbox" name="EULA" id="eula">
+      <label for="eula">I agree to the terms and receiving notifications from iinto <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">View full terms</a></label>
+    </div>
+    <div class="account">
+      <button type="button" class="button3">Create account</button>
+    </div>
+  </div>
+</body>
+
+</html>
